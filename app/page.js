@@ -41,7 +41,7 @@ export default function Home() {
 
   const { settheme, theme } = useTheme();
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between bg-base-100 p-24">
       <div className="dropdown absolute right-0 top-2">
         <div tabIndex={0} role="button" className="btn">
           Click to change theme
