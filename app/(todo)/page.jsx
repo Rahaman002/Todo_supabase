@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import Todo from "./components/todo";
+import Todo from "./_components/todo";
 import { useTheme } from "./theme";
 
 export default function Home() {
@@ -48,7 +48,7 @@ export default function Home() {
         </div>
         <ul
           tabIndex={0}
-          className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
+          className="dropdown-content z-[1] menu p-2 shadow bg-base rounded-box w-52"
         >
           {themes.map((ele, id) => (
             <li key={id} onClick={() => settheme(themes[id])}>
